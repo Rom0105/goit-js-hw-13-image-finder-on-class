@@ -1,7 +1,6 @@
 import './sass/main.scss';
 import NewsApiService from './js/api-service';
 import handlebars from './templates/card-image.hbs';
-import { input } from '../../goit-js-hw-13-image-finder/src/js/references';
 import { alert, error } from '../node_modules/@pnotify/core/dist/PNotify.js';
 import '@pnotify/core/dist/BrightTheme.css';
 import * as basicLightbox from 'basiclightbox';
