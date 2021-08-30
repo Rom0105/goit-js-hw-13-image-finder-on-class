@@ -9,7 +9,7 @@ import {
   searchForms,
   articlesContainer,
   loadMore,
-  inputForm,
+  input,
   btn,
   element,
   isHiddenBtn,
@@ -18,7 +18,7 @@ const newsApiService = new NewsApiService();
 
 searchForms.addEventListener('submit', onSearch);
 loadMore.addEventListener('click', onloadMore);
-inputForm.addEventListener('input', delateMarkup);
+input.addEventListener('input', delateMarkup);
 articlesContainer.addEventListener('click', openModal);
 
 function onSearch(event) {
